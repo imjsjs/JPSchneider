@@ -1,26 +1,56 @@
-
+# Site settings
 title: Jake P Schneider
-url: 'http://JPSchneider.com'
-baseurl: '' #change it according to your repository name
-
-
-# Enable one of these styles by removing #. Style will be applied only after restarting the build or serve.
-#style: styles-2
-#style: styles-3
-#style: styles-4
-#style: styles-5
-style: styles-6
-
-
-#Profile information
-name: Jake P Schneider
-tagline: Producer | Engineer
-pic: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
-#sidebar links
 email: Jake.P.Schneider@gmail.com
-phone: 949 322 2429
-website: JPScheider.com #do not add http://
-facebook: 'JakePSchneider'
+url: https://JPSchneider.com
+description: "Jake P Schneider's Web Design and Graphics Portfolio"
+skills: "Web Developer - Graphic Artist - User Experience Designer"
+meta_author: Schneider Jake
 
-#Update all the sections by editing the files inside _includes folder.
+# Google webmaster tools
+google_verify:
+
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:
+
+# Contact form:
+# - static : pass through formspree.io to validate email sending
+# - disqus : replace contact form by disqus thread
+# - comment the line below if you want to stick with the default PHP contact form
+contact: static
+
+# If you use disqus you need disqus shortname
+# https://help.disqus.com/customer/portal/articles/466208
+disqus_shortname: myshortname
+
+# Color settings (hex-codes without the leading hash-tag)
+color:
+  primary: 7aadbc #80B3FF
+  primary-rgb: "122,173,188" #"128,179,255"
+  secondary: 2c3e50 #FD6E8A
+  secondary-dark: 233140 #A2122F
+
+# Footer settings
+footer:
+  copyright: Jake P Schneider
+  location: Location
+  social: Around the Web
+  credits: Credits
+
+# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+social:
+  - title: facebook
+    url: http://facebook.com/JakePSchneider
+  - title: google-plus
+    url: https://plus.google.com/u/0/+JPSchneiderTV
+
+# Postal address (add as many lines as necessary)
+address:
+  - line: Trabuco Canyon
+  - line: Orange County, CA 92679
+
+# Credits content
+credits: 'All content on this website created by Jake P Schneider'
+
+# Build settings
+markdown: kramdown
+permalink: pretty
