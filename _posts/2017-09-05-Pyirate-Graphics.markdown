@@ -7,6 +7,6 @@ alt: Pyirate Productions
 project-date: Setpember 2017
 client: Pyirate Productions
 category: Graphic Design
-description: A series of logos and character designs for the Video Game & Tech company, Pyirate Productions.  <a href="http://www.Pyirate.com/">www.Pyirate.com</a>
+description: A series of logos and character designs for the Video Game & Tech startup, Pyirate Productions.  <a href="http://www.Pyirate.com/">www.Pyirate.com</a>
 
 ---
