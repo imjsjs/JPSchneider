@@ -6,7 +6,7 @@ img: ussdfv.png
 alt: USSD Fountain Valley Website
 project-date: January 2018
 client: USSD Fountain Valley
-category: Web Design
-description: Re-designed the front page and template for local USSD Karate studio in Fountain Valley. Visit their website at <a href="http://www.USSDFV.com/">www.USSDFV.com</a>
+category: Web Development
+description: Designed the front page and Wordpress template for local USSD Karate studio in Fountain Valley. Visit their website at <a href="http://www.USSDFV.com/">www.USSDFV.com</a>
 
 ---
