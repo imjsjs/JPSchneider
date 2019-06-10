@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 9
+date: 2018-05-25
+img: Eden-comp.png
+alt: Eden Dating App Composition
+project-date: May 2018
+client: Eden
+category: UI/UX Design
+description: Composition made in Figma for the dating app startup, Eden.
+
+---

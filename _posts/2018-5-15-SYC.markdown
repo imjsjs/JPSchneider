@@ -1,0 +1,12 @@
+---
+layout: default
+modal-id: 9
+date: 2018-05-15
+img: CC-HOME-1.png
+alt: SYC Website Composition
+project-date: May 2018
+client: SYC
+category: UI/UX Design
+description: Composition made in Figma for the SYC Credit Processing company.
+
+---
