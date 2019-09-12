@@ -1,5 +1,5 @@
 # Site settings
-title: Jake P Schneider
+title: Jacob Schneider
 email: Jake.P.Schneider@gmail.com
 url: https://JPSchneider.com
 description: "Jake P Schneider's Web Design and Graphics Portfolio"
@@ -31,17 +31,13 @@ color:
 
 # Footer settings
 footer:
-  copyright: Jake P Schneider
+  copyright: Jacob Schneider
   location: Location
   social: Around the Web
   credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
-social:
-  - title: facebook
-    url: http://facebook.com/JakePSchneider
-  - title: google-plus
-    url: https://plus.google.com/u/0/+JPSchneiderTV
+
 
 # Postal address (add as many lines as necessary)
 address:
@@ -49,7 +45,7 @@ address:
   - line: Orange County, CA 92679
 
 # Credits content
-credits: 'All content on this website created by Jake P Schneider'
+credits: 'All content on this website created by Jacob Schneider'
 
 # Build settings
 markdown: kramdown
