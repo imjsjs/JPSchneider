@@ -184,6 +184,10 @@ section.success {
     background: #{{ site.color.primary }};
 }
 
+section.success p {
+    font-size: 1.5em;
+}
+
 @media(max-width:767px) {
     section {
         padding: 75px 0;
@@ -192,6 +196,10 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+}
+
+#portfolio h2 {
+  margin: 40px 0 30px;
 }
 
 #portfolio .portfolio-item {
@@ -205,6 +213,8 @@ section.success {
     margin: 0 auto;
     max-width: 400px;
     box-shadow: 0px 1px 8px #888888;
+    max-height: 250px;
+    overflow: hidden;
 }
 
 #portfolio .portfolio-item .portfolio-link .caption {
