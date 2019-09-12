@@ -165,9 +165,17 @@ header .intro-text .skills {
     color: #{{ site.color.primary }};
 }
 
+.navbar .navbar-nav li a:hover {
+    color: #{{ site.color.secondary }};
+}
+
 .navbar-default .navbar-nav .active a {
     background: #fff !important;
     color: #{{ site.color.primary }};
+}
+
+.navbar-default .navbar-nav .active a:hover {
+    color: #{{ site.color.secondary }};
 }
 
 .navbar .navbar-nav li a:focus {
