@@ -192,6 +192,10 @@ header .intro-text .skills {
     color: #{{ site.color.secondary }};
 }
 
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #{{ site.color.secondary }};
+}
+
 section {
     padding: 100px 0;
 }
