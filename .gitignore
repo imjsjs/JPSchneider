@@ -5,3 +5,4 @@ Gemfile.lock
 .DS_Store
 img/.DS_Store
 .jekyll-cache
+img/portfolio/.DS_Store

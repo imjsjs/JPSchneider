@@ -49,4 +49,4 @@ credits: 'All content on this website created by Jacob Schneider'
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: none

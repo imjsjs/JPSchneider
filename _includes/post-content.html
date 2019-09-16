@@ -1,0 +1,122 @@
+<div class="post-content" role="dialog">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="text-center">{{ page.title }}</h2>
+                <hr class="star-primary">
+            </div>
+            <div class="col-lg-6">
+                {% if page.img %}<a href="#portfolioModal-{{ page.modal-id }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img2 %}<a href="#portfolioModal-{{ page.modal-id2 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img3 %}<a href="#portfolioModal-{{ page.modal-id3 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img3 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img4 %}<a href="#portfolioModal-{{ page.modal-id4 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img4 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+            </div>
+            <div class="col-lg-6">
+                <p>{{ page.description | newline_to_br }}</p>
+                <br>
+                <ul class="list-inline item-details">
+                    <li>Client:
+                        <strong>{{ page.client }}
+                        </strong>
+                    </li>
+                    <li>Date:
+                        <strong>{{ page.project-date }}
+                        </strong>
+                    </li>
+                    <li>Service:
+                        <strong>{{ page.category }}
+                        </strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+{% if page.img %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="modal-body">
+                            <img src="../img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% if page.img2 %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id2 }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="modal-body">
+                            <img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% if page.img3 %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id3 }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="modal-body">
+                            <img src="../img/portfolio/{{ page.img3 }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
+{% if page.img2 %}
+    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id4 }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="modal-body">
+                            <img src="../img/portfolio/{{ page.img4 }}" class="img-responsive img-centered" alt="{{ page.alt }}">
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endif %}
