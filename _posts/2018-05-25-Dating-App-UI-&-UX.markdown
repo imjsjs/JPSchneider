@@ -4,6 +4,7 @@ permalink: /dating-app/
 modal-id: 10
 date: 2018-05-25
 img: Dating-App_UI_UX.jpg
+img2: Eden-comp.png
 alt: Dating App Composition
 project-date: May 2018
 client: BTP
