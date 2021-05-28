@@ -1,9 +1,9 @@
 # Site settings
-title: Jacob Schneider
+title: Jacob P Schneider
 email: Jake.P.Schneider@gmail.com
 url: https://JPSchneider.com
-description: "Jacob Schneider's Web Design and Graphics Portfolio"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
+description: "Jacob P Schneider's Web Design and Graphics Portfolio"
+skills: "Web Developer - Graphic Designer"
 meta_author: Schneider Jake
 
 # Google webmaster tools
@@ -24,14 +24,14 @@ disqus_shortname: myshortname
 
 # Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 7aadbc #80B3FF
-  primary-rgb: "122,173,188" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  primary: 333333 #80B3FF
+  primary-rgb: "51,51,51" #"128,179,255"
+  secondary: 9c9c9c #FD6E8A
+  secondary-dark: 4d4d4d #A2122F
 
 # Footer settings
 footer:
-  copyright: Jacob Schneider
+  copyright: Jacob P Schneider
   location: Location
   social: Around the Web
   credits: Credits

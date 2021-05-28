@@ -1,15 +1,15 @@
 <div class="post-content" role="dialog">
-    <div class="container">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-12">
                 <h2 class="text-center">{{ page.title }}</h2>
                 <hr class="star-primary">
             </div>
             <div class="col-lg-6">
-                {% if page.img %}<a href="#portfolioModal-{{ page.modal-id }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
-                {% if page.img2 %}<a href="#portfolioModal-{{ page.modal-id2 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
-                {% if page.img3 %}<a href="#portfolioModal-{{ page.modal-id3 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img3 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
-                {% if page.img4 %}<a href="#portfolioModal-{{ page.modal-id4 }}" data-toggle="modal"><img src="../img/portfolio/{{ page.img4 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img %}<a href="#portfolioModal-1" data-toggle="modal"><img src="../img/portfolio/{{ page.img }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img2 %}<a href="#portfolioModal-2" data-toggle="modal"><img src="../img/portfolio/{{ page.img2 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img3 %}<a href="#portfolioModal-3" data-toggle="modal"><img src="../img/portfolio/{{ page.img3 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
+                {% if page.img4 %}<a href="#portfolioModal-4" data-toggle="modal"><img src="../img/portfolio/{{ page.img4 }}" class="img-responsive img-centered" alt="{{ page.alt }}"></a>{% endif %}
             </div>
             <div class="col-lg-6">
                 <p>{{ page.description | newline_to_br }}</p>
@@ -33,7 +33,7 @@
     </div>
 </div>
 {% if page.img %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-1" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -55,7 +55,7 @@
     </div>
 {% endif %}
 {% if page.img2 %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id2 }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-2" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -77,7 +77,7 @@
     </div>
 {% endif %}
 {% if page.img3 %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id3 }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-3" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -99,7 +99,7 @@
     </div>
 {% endif %}
 {% if page.img2 %}
-    <div class="portfolio-modal modal fade" id="portfolioModal-{{ page.modal-id4 }}" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolioModal-4" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
